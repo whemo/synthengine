@@ -41,7 +41,7 @@ Next 24 hours. Shows expected portfolio value range (worst/current/best), Probab
 1-year backtest chart using Yahoo Finance historical prices. Shows portfolio growth over time with the entry price and current price per asset, plus percentage return on each.
 
 ### 7. Retrospective Alpha
-Same backtest but benchmarked against SPY. Strategy line vs benchmark line on one chart. Demo run: **$277,973 vs $233,090** on a $190k portfolio over 9 months.
+Same backtest but benchmarked against SPY. Strategy line vs benchmark line on one chart.
 
 ---
 
