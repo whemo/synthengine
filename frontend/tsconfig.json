@@ -30,6 +30,6 @@
       "@types/*": ["src/types/*"]
     }
   },
-  "include": ["src", "src/vite-env.d.ts", ".env.example"],
+  "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
