@@ -47,15 +47,15 @@ Same backtest but benchmarked against SPY. Strategy line vs benchmark line on on
 
 ## Risk metrics
 
-| Metric | What it is | Demo value |
-|--------|-----------|------------|
-| Annualized Volatility | Synth AI-predicted vol, annualized | 3.4% |
-| Sharpe Ratio | Return per unit of risk | -0.66 |
-| 95% VaR | Max daily loss 95% of the time | -0.30% |
-| Max Drawdown | Worst peak-to-trough in simulation | -2.6% |
-| CVaR 95% | Average loss in the worst 5% of scenarios | -0.37% |
-| Prob. of Profit (7-day) | Monte Carlo runs ending positive | 44% |
-| Prob. of Gain (24H) | 24H forecast runs ending positive | 39.5% |
+| Metric | What it is |
+|--------|-----------|
+| Annualized Volatility | Synth AI-predicted vol, annualized | 
+| Sharpe Ratio | Return per unit of risk | 
+| 95% VaR | Max daily loss 95% of the time | 
+| Max Drawdown | Worst peak-to-trough in simulation | 
+| CVaR 95% | Average loss in the worst 5% of scenarios | 
+| Prob. of Profit (7-day) | Monte Carlo runs ending positive | 
+| Prob. of Gain (24H) | 24H forecast runs ending positive |
 
 Risk Multiplier constraints:
 
