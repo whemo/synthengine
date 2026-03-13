@@ -6,7 +6,8 @@ import type {
   ApiError,
 } from '../types';
 
-const API_BASE_URL = '/api/v1';
+// Production API URL from environment variable, fallback to local proxy
+const API_BASE_URL = import.meta.env.VITE_API_URL || '/api/v1';
 
 /**
  * Convert snake_case keys to camelCase (recursive)
