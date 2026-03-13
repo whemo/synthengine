@@ -175,7 +175,7 @@ export default function MonteCarloChart({ paths, initialCapital }: MonteCarloCha
           <div key={s.label} className="p-4 rounded-2xl" style={{ backgroundColor: 'rgba(17,17,17,0.04)' }}>
             <p className="text-xs font-medium mb-1" style={{ color: 'var(--text-muted)' }}>{s.label}</p>
             <p className="text-lg font-bold" style={{ color: s.color, letterSpacing: '-0.03em' }}>{s.value}</p>
-            {'progress' in s && (
+            {'progress' in s && s.progress !== undefined && (
               <div className="mt-2 h-1.5 rounded-full overflow-hidden" style={{ backgroundColor: 'rgba(17,17,17,0.08)' }}>
                 <div className="h-full rounded-full" style={{ width: `${s.progress * 100}%`, backgroundColor: 'var(--text-main)' }} />
               </div>

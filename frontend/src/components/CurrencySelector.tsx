@@ -7,7 +7,7 @@ import { CURRENCIES, type CurrencyCode } from '../hooks/useCurrency';
 
 const CURRENCY_FLAGS: Record<CurrencyCode, string> = {
   USD: '🇺🇸', EUR: '🇪🇺', GBP: '🇬🇧', BTC: '₿', ETH: 'Ξ',
-};
+} as const;
 
 export default function CurrencySelector() {
   const { currency, setCurrency, isLoadingRates } = useCurrencyContext();
